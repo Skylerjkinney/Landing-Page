@@ -7,8 +7,8 @@ export const AppState = reactive({
   currentYear: new Date().getFullYear(),
   about: {
     name: "Skyler Kinney",
-    title: 'SOFTWARE ENGINEER/TECHNO-BARBARIAN',
-    summary: ``
+    title: 'SOFTWARE ENGINEER',
+    summary: `Technology is at in incredible state right now. `
   },
   applications: [
     {
@@ -24,7 +24,7 @@ In Keeper I utilized the Vue3 framework for the client, and .Net8 C# framework t
     },
     {
       title: 'Crawling the Web 2',
-      // img: webCrawler,
+      img: keeper,
       description: `
 Showing multiple applications.
 
@@ -36,10 +36,13 @@ Showing multiple applications.
   ],
   experiences: [
     {
-      title: 'Software Developer', company: 'C.U.P.S', dates: 'Jan 2020 - Jan 2024',
+      title: 'Software Developer', company: 'Codeworks', dates: 'Nov 2023 - Mar 2024',
       summary: `Markdown supports [links](https://catsups.herokuapp.com/#/)
 - I found over 480 lost packages in just 2 hours
       `
+    },
+    {
+      title: ''
     }
   ],
   socialLinks: [

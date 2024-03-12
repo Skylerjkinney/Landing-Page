@@ -30,7 +30,7 @@ export default {
 
 <style scoped lang="scss">
 header {
-  height: 47vh;
+  height: 33vh;
   font-size: 18pt;
   position: relative;
   background-color: #090219;
@@ -39,7 +39,7 @@ header {
   &::after {
     content: '';
     z-index: 1;
-    background-image: url(../assets/img/nyan.png);
+    background-image: url(../assets/img/logo.png);
     position: absolute;
     background-position: top;
     background-size: cover;

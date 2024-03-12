@@ -1,9 +1,6 @@
 <template>
   <nav class="navbar fixed-top navbar-expand-lg transition p-3"
     :class="scrolled ? 'navbar-light bg-light shadow scrolled' : ''">
-    <marquee behavior="alternate" direction="right">
-      <img height="100" width="100" src="../assets/img/nyan.png" alt="nav Logo" class="drop-shadow" />
-    </marquee>
     <router-link class="d-flex align-items-center" to="/">
       <img height="100" width="100" src="../assets/img/1-removebg-preview.png" alt="nav Logo" class="drop-shadow"
         :class="scrolled ? '' : ''" />

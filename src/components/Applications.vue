@@ -27,4 +27,8 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+img {
+  border-radius: 55%;
+}
+</style>
