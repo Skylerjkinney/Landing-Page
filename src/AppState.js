@@ -26,13 +26,12 @@ In Keeper I utilized the Vue3 framework for the client, and .Net8 C# framework t
       title: 'Pc Build Bois',
       img: keeper,
       description: `
-Pc Build Bois was a collabartive effort 
+Pc Build Bois was a collaborative effort with https://github.com/maxpete121, the application is a personal computer creation platform, in which users can take a guided tour to have assistance in building their dream PC.
 
-- Something most important **is emphasized** 
-- This is another bullet it is 110% better 
-- I should have more content here
-    `
-    }
+- The client was constructed with Vue3
+- This project showcases my understanding of Express, Node.js, and MongoDb with mongoose as an ORM
+- This project was a **collaborative** effort, where we practiced standard SCRUM methodologies where I acted as SCRUM master
+    `}
   ],
   experiences: [
     {

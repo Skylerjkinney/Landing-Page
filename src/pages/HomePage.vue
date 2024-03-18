@@ -8,7 +8,7 @@
     </section>
 
     <div class="divider bg-secondary">
-      <div class="display-4 text-light">SECTION</div>
+      <div class="display-4 text-light">Inquiries</div>
     </div>
 
     <section class="container">
