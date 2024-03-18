@@ -23,10 +23,10 @@ In Keeper I utilized the Vue3 framework for the client, and .Net8 C# framework t
     `
     },
     {
-      title: 'Crawling the Web 2',
+      title: 'Pc Build Bois',
       img: keeper,
       description: `
-Showing multiple applications.
+Pc Build Bois was a collabartive effort 
 
 - Something most important **is emphasized** 
 - This is another bullet it is 110% better 
@@ -37,12 +37,24 @@ Showing multiple applications.
   experiences: [
     {
       title: 'Software Developer', company: 'Codeworks', dates: 'Nov 2023 - Mar 2024',
-      summary: `Markdown supports [links](https://catsups.herokuapp.com/#/)
-- I found over 480 lost packages in just 2 hours
+      summary: `
+      - I have completed 500+ hours of working in both an individual and team settings to complete 15+ full-stack applications
+      - I implemented SCRUM methodologies into all of my projects, typically acting as scrum master in order to ensure a comprehensive backlog of weighted items to complete in a week long sprint
       `
     },
     {
-      title: ''
+      title: 'Mixologist/CRM', company: 'Brickyard', dates: 'Sep 2019 - Nov 2023',
+      summary: `
+      - I curated a personalized, informative, and organized find dining experience to an average of 25-30+ guests a night
+      - I achieved this by coordinating and delegating various tasks between myself, FOH team members, And BOH team members to ensure a seamless experience
+      `
+    },
+    {
+      title: 'Mixologist/CRM', company: 'Chandlers Steakhouse', dates: 'July 2013 - Sep 2019',
+      summary: `
+      - Conceptualized modern takes on classic cocktails, internalizing guest preferences to fine tune any cocktail to suit their immediate desire
+      - Considered every detail associated with a classic fine dining experience, from best practices in fine dining etiquette, to personalized actions based upon guest discretion
+      `
     }
   ],
   socialLinks: [

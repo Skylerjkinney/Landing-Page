@@ -27,8 +27,8 @@ export default {
 
   setup() {
     useHead({
-      title: 'My awesome site',
-      meta: [{ property: '', content: '' }]
+      title: 'Skyler Kinney',
+      meta: [{ property: 'SkyTooth', content: 'Hire me for any and all software needs!' }]
     })
 
     return {
