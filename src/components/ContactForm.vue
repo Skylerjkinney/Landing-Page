@@ -1,6 +1,6 @@
 <template>
   <div class="card">
-    <img src="../assets/img/logo.png" alt="example" class="rounded-top">
+    <img src="../assets/img/me.jpg" alt="example" class="rounded-top">
     <div class="card-body">
       <div class="fs-4 fw-bold mb-3">
         Get in touch!

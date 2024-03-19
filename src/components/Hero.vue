@@ -40,7 +40,7 @@ header {
   &::after {
     content: '';
     z-index: 1;
-    background-image: url(https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fG1hdHJpeHxlbnwwfHwwfHx8MA%3D%3D);
+    background-image: url("../assets/img/educate.jpg");
     position: absolute;
     background-position: top;
     background-size: cover;
