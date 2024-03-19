@@ -1,7 +1,7 @@
 import { reactive } from 'vue'
 import keeper from './assets/img/keeper.jpg'
 import nyanlogo from './assets/img/nyanlogo.png'
-import educate from './assets/img/educate.jpg'
+
 
 
 // NOTE AppState is a reactive object to contain app level data
@@ -10,19 +10,20 @@ export const AppState = reactive({
   about: {
     name: "SOFTWARE ENGINEER",
     title: 'Skyler Kinney',
-    summary: `Technology is at in incredible state right now.`,
-    img: educate
+    summary: `Technology is at in incredible state right now.`
   },
   applications: [
     {
       title: 'Keeper',
       img: keeper,
+      link: 'https://keeper.bobs208.com/#/',
       description: `
 In Keeper I utilized the Vue3 framework for the client, and .Net8 C# framework to create an API with dapper as my ORM. This project showcases my understanding of virtual relationships of data objects. The overall concept of this application is very similar to popular app Pintrest.
 
 - Auth 0 is the auth provider, which creates bearer tokens as access keys.
--  This application is deployed at keeper.bobs208.com.
--   As this is a live version of this project I am continuously maintaining it, and improving it to become a try feature rich application.
+-  Demonstrates my ability to work across a tech stack, with a highlight on my understanding of virtual relationships.
+- My first experience using dotnet, and MySQL. 
+-   The hard stuff https://github.com/Skylerjkinney/keeper.
     `
     },
     {
@@ -34,6 +35,7 @@ Pc Build Bois was a collaborative effort with https://github.com/maxpete121, the
 - The client was constructed with Vue3
 - This project showcases my understanding of Express, Node.js, and MongoDb with mongoose as an ORM
 - This project was a **collaborative** effort, where we practiced standard SCRUM methodologies where I acted as SCRUM master
+- The hard stuff https://github.com/maxpete121/CapStone.
     `}
   ],
   experiences: [

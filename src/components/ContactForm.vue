@@ -3,7 +3,7 @@
     <img src="../assets/img/me.jpg" alt="example" class="rounded-top">
     <div class="card-body">
       <div class="fs-4 fw-bold mb-3">
-        Get in touch!
+        Let's connect!
       </div>
       <form class="contact-form" @submit.prevent="submitForm">
         <div class="form-group">

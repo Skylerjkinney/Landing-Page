@@ -3,8 +3,10 @@
     <div class="row m-auto p-md-3 my-5" v-for="(app, i) in applications">
       <div class="col-lg-6 d-flex justify-content-center" :class="i % 2 == 1 ? 'offset-lg-1 order-1 order-lg-2' : ''"
         v-if="app.img">
-        <img :src="app.img" :alt="app.title" class="text-shadow mb-5 mb-lg-0 rounded"
+        <a :href="app.link">
+          <img :src="app.img" :alt="app.title" class="text-shadow mb-5 mb-lg-0 rounded"
           style="width: 100%;object-fit: contain;" />
+        </a>
       </div>
       <div class="col-lg-4 offset-lg-1 d-flex flex-column justify-content-center">
         <h2>{{ app.title }}</h2>
