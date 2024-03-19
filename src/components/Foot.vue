@@ -3,8 +3,10 @@
     <div class="container-fluid pt-5 text-center bg-secondary">
       <div class="d-flex justify-content-around flex-wrap align-items-baseline">
         <div class="pb-3 d-flex flex-column gap-2">
-          <img src="../assets/img/nyan.png" alt="logo" height="80" />
-          <span class="text-primary fw-bold">SKYTOOTH</span>
+          <marquee behavior="scroll" direction="right" title="I know this is deprecated, but I aim to keep the marquee tag alive!">
+            <img src="../assets/img/nyan.png" alt="logo" height="80" />
+            <span class="text-primary fw-bold">SKYTOOTH</span>
+          </marquee>
         </div>
         <div class="">
           <div class="row">

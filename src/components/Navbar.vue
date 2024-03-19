@@ -2,7 +2,7 @@
   <nav class="navbar fixed-top navbar-expand-lg transition p-3"
     :class="scrolled ? 'navbar-light bg-light shadow scrolled' : ''">
     <router-link class="d-flex align-items-center" to="/">
-      <img height="100" width="100" src="../assets/img/nyan.png" alt="nav Logo" class="drop-shadow"
+      <img height="100" width="100" src="../assets/img/logo.png" alt="nav Logo" class="drop-shadow"
         :class="scrolled ? '' : ''" />
       <p class="fs-4 m-0 ms-2 text-primary" :class="scrolled ? 'text-dark' : 'text-shadow text-white'">
         {{ name }}
@@ -45,7 +45,7 @@ export default {
 
     return {
       scrolled,
-      pages: []
+      pages: [ ]
     }
   }
 };
