@@ -38,6 +38,7 @@ export default {
     return {
       editable,
       handleSubmit() {
+
         // For a free Serverless option consider a google form 
         // follow this tutorial https://blog.webjeda.com/google-form-customize/ 
         // Easy Mode - https://stefano.brilli.me/google-forms-html-exporter/
