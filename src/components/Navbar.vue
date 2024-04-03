@@ -1,4 +1,5 @@
 <template>
+  <!-- fix logo in mobile downsize/fix side scroll in experience section/look at the dropdown switch for dropdown menu in mobile -->
   <nav class="navbar fixed-top navbar-expand-lg transition p-3"
     :class="scrolled ? 'navbar-light bg-light shadow scrolled' : ''">
     <router-link class="d-flex align-items-center" to="/">
@@ -45,7 +46,7 @@ export default {
 
     return {
       scrolled,
-      pages: [ ]
+      pages: []
     }
   }
 };
