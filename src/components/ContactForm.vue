@@ -7,7 +7,7 @@
       </div>
       <form
         action="https://docs.google.com/forms/d/e/1FAIpQLSdkhxKUuGmmD50Hsi8GtZDLucyezfXAOp2RMHJw7QxIRRG8hA/formResponse"
-        target="_self" id="bootstrapForm" method="POST">
+        target="_self" id="bootstrapForm" method="POST" @submit="handleSubmit()">
         <fieldset>
           <h2>Contact Information<br><small></small></h2>
         </fieldset>
@@ -51,6 +51,7 @@
 
 <script>
 import { ref } from 'vue';
+import Pop from '../utils/Pop';
 
 
 export default {
@@ -64,16 +65,7 @@ export default {
     return {
       editable,
       async handleSubmit() {
-
-
-        // For a free Serverless option consider a google form 
-        // follow this tutorial https://blog.webjeda.com/google-form-customize/ 
-        // Easy Mode - https://stefano.brilli.me/google-forms-html-exporter/
-
-        // Server: You can use an API or send an email using a service like Nodemailer
-        // Example: axios.post('/api/contact', { name: this.name, email: this.email, message: this.message })
-
-        // Then show a success message or redirect to a thank you page
+        Pop.success('Thank you, I will be in touch soon!')
       }
     };
   }
